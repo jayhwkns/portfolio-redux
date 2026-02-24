@@ -3,7 +3,7 @@ projectId: "squigley"
 title: "Squigley"
 description: "A physics-based platformer available on Steam"
 technologies: ["c#", "unity"]
-githubUrl: https://github.com/JayHawkinsMTU/Squigley
+githubUrl: https://github.com/jayhwkns/Squigley
 steamUrl: https://store.steampowered.com/app/2822670/Squigley/
 ---
 Squigley is a 2D platformer that I developed during my freshman year of
