@@ -1,7 +1,7 @@
 import type { Technology } from "@/types/projectTimeline.js"
 import {
-  TbBrandCarbon, TbBrandCpp, TbBrandCSharp, TbBrandKotlin, TbBrandPython,
-  TbBrandUnity, TbSql, TbBrandTypescript
+  TbOutlineBrandCarbon, TbOutlineBrandCpp, TbOutlineBrandCSharp, TbOutlineBrandKotlin, TbOutlineBrandPython,
+  TbOutlineBrandUnity, TbOutlineSql, TbOutlineBrandTypescript
 } from "solid-icons/tb"
 import styles from "@/styles/TechIcon.module.css"
 
@@ -9,21 +9,21 @@ import styles from "@/styles/TechIcon.module.css"
 export default function TechIcon(args: { tech: Technology }) {
   switch (args.tech) {
     case "c#":
-      return <TbBrandCSharp class={styles.techicon} />
+      return <TbOutlineBrandCSharp class={styles.techicon} />
     case "unity":
-      return <TbBrandUnity class={styles.techicon} />
+      return <TbOutlineBrandUnity class={styles.techicon} />
     case "c":
-      return <TbBrandCarbon class={styles.techicon} />
+      return <TbOutlineBrandCarbon class={styles.techicon} />
     case "c++":
-      return <TbBrandCpp class={styles.techicon} />
+      return <TbOutlineBrandCpp class={styles.techicon} />
     case "kotlin":
-      return <TbBrandKotlin class={styles.techicon} />
+      return <TbOutlineBrandKotlin class={styles.techicon} />
     case "sql":
-      return <TbSql class={styles.techicon} />
+      return <TbOutlineSql class={styles.techicon} />
     case "python":
-      return <TbBrandPython class={styles.techicon} />
+      return <TbOutlineBrandPython class={styles.techicon} />
     case "typescript":
-      return <TbBrandTypescript class={styles.techicon} />
+      return <TbOutlineBrandTypescript class={styles.techicon} />
   }
 }
 
