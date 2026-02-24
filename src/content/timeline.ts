@@ -4,6 +4,12 @@ export const projectDataUrl = "https://raw.githubusercontent.com/JayHawkinsMTU/p
 
 export const timeline: TimelineEvent[] = [
   {
+    timestamp: "Spring 2026"
+  },
+  {
+    projectId: "apsis"
+  },
+  {
     timestamp: "Fall 2025"
   },
   {

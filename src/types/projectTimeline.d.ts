@@ -24,5 +24,5 @@ export type Project = {
 
 // Showcase technologies and languages used on a project
 export type Technology = "c#" | "unity" | "python" |
-    "c" | "c++" | "kotlin" | "sql"
+  "c" | "c++" | "kotlin" | "sql" | "typescript"
 
