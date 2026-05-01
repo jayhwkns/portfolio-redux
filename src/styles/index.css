@@ -1,20 +1,22 @@
 @import "tailwindcss";
-@font-face{
+
+@font-face {
   font-family: 'Hack';
   src: url("../assets/Hack-Regular.ttf")
 }
 
-@font-face{
+@font-face {
   font-family: 'Montserrat';
   src: url("../assets/Montserrat-VariableFont_wght.ttf")
 }
 
-:root { /* all variables */
-  --background: 28, 26, 25;
+:root {
+  /* all variables */
+  --background: 25, 22, 22;
   --foreground: 255, 255, 255;
-  --inactive: 126, 126, 126;
-  --emphasis: 234, 119, 70;
-  --deep: 18, 16, 15;
+  --inactive: 122, 126, 122;
+  --emphasis: 220, 114, 49;
+  --deep: 14, 12, 12;
   --primary-font: 'Montserrat';
   --mono-font: 'Hack', 'Fira Mono', mono;
   z-index: -5;
@@ -28,8 +30,8 @@ article {
 body {
   margin: 0;
   font-family: var(--primary-font), -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
-  'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
-  'Helvetica Neue', sans-serif;
+    'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
+    'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: rgb(var(--foreground));
@@ -38,21 +40,20 @@ body {
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-  monospace;
+    monospace;
 }
 
 a {
   color: rgb(var(--emphasis));
 }
 
-.bg:after{
-  content:"";
-  background-image:url("https://upload.wikimedia.org/wikipedia/commons/7/76/1k_Dissolve_Noise_Texture.png");
+.bg:after {
+  content: "";
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/76/1k_Dissolve_Noise_Texture.png");
   height: 300%;
   width: 300%;
   position: fixed;
   z-index: -10;
-  opacity:0.05;
+  opacity: 0.05;
   animation: animateGrain 8s steps(10) infinite;
 }
-
